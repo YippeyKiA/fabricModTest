@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "tutorialmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fabric Learning",
+  "description": "Just me learning about how fabric works to build my own mods and maybe port some other mods",
   "authors": [
-    "Me!"
+    "YippeyKiA"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.yippeykia.tutorialmod.TutorialMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "tutorialmod.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.7",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
